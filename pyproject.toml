@@ -3,17 +3,25 @@ name = "symbolic-music-generation"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "accelerate>=1.11.0",
     "datasets>=4.3.0",
     "ipykernel>=7.1.0",
     "matplotlib>=3.10.7",
+    "miditok>=3.0.6.post1",
     "music21>=9.9.1",
     "pandas>=2.3.3",
     "pretty-midi>=0.2.11",
     "pygame>=2.6.1",
     "seaborn>=0.13.2",
     "sentencepiece>=0.2.1",
+    "torch>=2.0.0",
+    "torchaudio>=2.0.0",
+    "torchvision>=0.15.0",
     "transformers>=4.57.1",
 ]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
+extra-index-url = ["https://download.pytorch.org/whl/cu130"]

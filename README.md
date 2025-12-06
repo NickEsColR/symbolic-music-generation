@@ -5,13 +5,13 @@
 
 ## Overview
 
-This repository implements a text-to-MIDI generation system that creates symbolic music from natural language descriptions. The project replicates and extends the methodology from the [Text2midi paper](http://arxiv.org/abs/2412.16526), enabling the generation of MIDI files from textual captions that describe musical characteristics such as mood, genre, tempo, key, and instrumentation.
+This repository implements a text-to-MIDI generation system that creates symbolic music from natural language descriptions. The project replicates and extends the methodology from the [Text2midi paper](http://arxiv.org/abs/2412.16526), enabling the generation of MIDI files from textual captions that describe musical characteristics such as tempo, key, and instrumentation.
 
 ## Key Features
 
 - **Text-to-MIDI Generation**: Transform natural language descriptions into symbolic music (MIDI format)
 - **Multi-Dataset Support**: Works with SymphonyNet and MidiCaps datasets
-- **Exploratory Data Analysis**: Comprehensive analysis of musical datasets including genre, mood, tempo, and instrumentation patterns
+- **Exploratory Data Analysis**: Comprehensive analysis of musical datasets including tempo, and instrumentation patterns
 - **Model Training Pipeline**: Complete implementation of the Text2midi architecture using FlanT5 encoder and REMI+ tokenization
 
 ## Project Structure

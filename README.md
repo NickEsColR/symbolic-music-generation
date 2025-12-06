@@ -39,12 +39,6 @@ cd symbolic-music-generation
 uv sync
 ```
 
-Or using pip:
-
-```bash
-pip install -r requirements.txt  # If available
-```
-
 ### Key Dependencies
 
 - **PyTorch**: Deep learning framework

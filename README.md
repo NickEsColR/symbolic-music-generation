@@ -28,7 +28,7 @@ symbolic-music-generation/
 
 ## Installation
 
-This project requires Python 3.12 or higher. Install dependencies using [uv](https://github.com/astral-sh/uv):
+This project requires Python 3.12+. Install dependencies using [uv](https://github.com/astral-sh/uv):
 
 ```bash
 # Clone the repository
@@ -41,12 +41,19 @@ uv sync
 
 ### Key Dependencies
 
-- **PyTorch**: Deep learning framework
+The project uses the following main dependencies:
+
+- **PyTorch**: Deep learning framework with CUDA support
 - **Transformers**: For FlanT5 encoder model
 - **miditok**: MIDI tokenization with REMI+ support
 - **music21**: Music analysis and MIDI processing
 - **datasets**: Dataset loading and processing
+- **accelerate**: Training acceleration utilities
 - **pandas, matplotlib, seaborn**: Data analysis and visualization
+- **scikit-learn**: Machine learning utilities
+- **sentencepiece**: Tokenization for text processing
+
+See `pyproject.toml` for the complete list of dependencies.
 
 ## Usage
 
